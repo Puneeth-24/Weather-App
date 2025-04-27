@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.app{
+    border: none;
+    min-width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(#A770EF,#CF8BF3,#FDB99B );
+    
+}
+
+.search-bar{
+    display: flex;
+    gap: 15px;
+    
+    
+   
+}
+
+.search-bar input{
+    font-family: monospace;
+}
+.search-bar button{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+}
+.search-bar button img{
+   height: 25px;
+    
+}
+
+
+
+.app input{
+    padding: 10px;
+    border:none;
+    border-radius:20px;
+    outline:none;
+}
+.app input:active{
+    outline:none;
+}
+
+
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:30px;
+
+}
+
+.weather-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    
+}
+
+.humSpeed-desc{
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+  
+}
+
+.humSpeed-desc span{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 10%;
+    font-size: 130%;
+}
