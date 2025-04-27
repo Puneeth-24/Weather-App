@@ -39,12 +39,20 @@ body{
     align-items: center;
     border: none;
     padding: 10px;
+    
 }
 .search-bar button img{
    height: 25px;
     
 }
-
+.search-bar button:active{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+.search-bar button:hover{
+    background-color: white;
+}
 
 
 .app input{
